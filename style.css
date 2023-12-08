@@ -1,0 +1,42 @@
+/* CSS reset */
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.profile{
+    margin-right: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: white;
+    
+}
+#profiletext{
+    color: white;
+    font-size: 30pt;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+#myprofiletext{
+    font-weight: 700;
+}
+
+#signout{
+    color: white;
+    background-color: rgb(98, 137, 210);
+    font-weight: 700;
+    padding: 5px;
+}
